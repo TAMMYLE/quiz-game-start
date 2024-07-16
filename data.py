@@ -12,3 +12,11 @@ question_data = [
     {"text": "No piece of square dry paper can be folded in half more than 7 times.", "answer": "False"},
     {"text": "A few ounces of chocolate can to kill a small dog.", "answer": "True"}
 ]
+
+# List of dictionaries
+
+# Each dictionary have a same key for the question (text) and answer (answer)
+
+# Task:
+
+# fetch this question data into main.py --> instead of list of dict, create a list of question objects

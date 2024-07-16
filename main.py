@@ -2,13 +2,15 @@ from question_model import Question
 from data import question_data
 from quiz_brain import QuizBrain
 
+# create a list of question objects
+
 question_bank = []
 
 for question in question_data:
     question_text = question['text']
     question_answer = question['answer']
 
-    my_q = Question(question_text, question_answer)
+    my_q = Question(question_text, question_answer) # each question object will be created using the name of the class and initialised w question and answer
 
     question_bank.append(my_q)
 
